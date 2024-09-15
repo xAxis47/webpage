@@ -122,9 +122,9 @@ header #logo img {
 }
 
 /*４つ目(Instagram)を除き、以下のGoogle Fontsを使う。*/
-/* #menubar li:not(:nth-of-type(4)) {
-	font-family: 'Qwitcher Grypen', cursive;
-} */
+/*#menubar li:nth-of-type(4) {*/
+/*	font-family: 'Qwitcher Grypen', cursive;*/
+/*}*/
 
 /*マウスオン時*/
 #menubar li:hover {
@@ -134,6 +134,7 @@ header #logo img {
 
 /*１つ目のメニュー(About)*/
 #menubar li:nth-of-type(1) {
+    font-family: 'Qwitcher Grypen', cursive;
 	left: 1%;			/*ウィンドウに対して左からの配置場所*/
 	top: 25%;			/*ウィンドウに対して上からの配置場所*/
 	animation-delay: 0.2s;	/*0.2秒だけ遅れてアニメーションをスタートさせる設定*/
@@ -144,6 +145,7 @@ header #logo img {
 
 /*２つ目のメニュー(Gallery)*/
 #menubar li:nth-of-type(2) {
+    font-family: 'Qwitcher Grypen', cursive;
 	left: 5%;			/*ウィンドウに対して左からの配置場所*/
 	top: 45%;			/*ウィンドウに対して上からの配置場所*/
 	animation-delay: 0.4s;	/*0.4秒だけ遅れてアニメーションをスタートさせる設定*/
@@ -154,6 +156,7 @@ header #logo img {
 
 /*３つ目のメニュー(Link)*/
 #menubar li:nth-of-type(3) {
+    font-family: 'Qwitcher Grypen', cursive;
 	left: 1%;			/*ウィンドウに対して左からの配置場所*/
 	top: 65%;			/*ウィンドウに対して上からの配置場所*/
 	animation-delay: 0.6s;	/*0.6秒だけ遅れてアニメーションをスタートさせる設定*/
@@ -164,6 +167,7 @@ header #logo img {
 
 /*４つ目のメニュー(Instagram)*/
 #menubar li:nth-of-type(4) {
+    font-family: 'Qwitcher Grypen', cursive;
 	left: 8%;			/*ウィンドウに対して左からの配置場所*/
 	top: 85%;			/*ウィンドウに対して上からの配置場所*/
 	animation-delay: 0.8s;	/*0.8秒だけ遅れてアニメーションをスタートさせる設定*/
@@ -554,4 +558,3 @@ header #logo img {
 /*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
-
