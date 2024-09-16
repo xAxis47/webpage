@@ -7,7 +7,9 @@
 <meta name="description" content="毎日のリズムを取って生活の規則性を導き出そう">
 <link rel="stylesheet" href="css/style.css">
 </head>
-
+<head>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
 <body>
 
 <aside id="mainimg">メインイメージ</aside>
@@ -18,10 +20,10 @@
     <h1 id="logo"><a href="index.html"></h1>
 
 <nav>
-<li><a href="index.html">home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#gallery">Gallery</a></li>
 <li><a href="#link">Link</a></li>
+<li><a href="#support">support</a></li>
 <!--<li><a href="#"><i class="fab fa-instagram"></i></a></li>-->
 </ul>
 </nav>
@@ -30,7 +32,7 @@
 
 <main>
 
-<div class="contents bg2" id="about">
+<div class="contents bg1" id="about">
 
 <section>
 
@@ -45,14 +47,8 @@
 
 </div>
 
-<!--aboutブロック開始＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝-->
-<!--<div class="contents bg2" id="about">-->
-<!---->
-<!--</div>-->
-<!--/#about-->
-
 <!--galleryブロック開始＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝-->
-<div class="contents bg3" id="gallery">
+<div class="contents bg2" id="gallery">
 
 <section>
 
@@ -92,7 +88,7 @@
 <!--/#gallery-->
 
 <!--linkブロック開始＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝-->
-<div class="contents bg4" id="link">
+<div class="contents bg3" id="link">
 
 <section>
 
@@ -111,6 +107,25 @@
 
 </div>
 <!--/#link-->
+
+<!--supportブロック開始＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝-->
+<div class="contents bg4" id="support">
+
+<h2>問い合わせ</h2>
+
+<form id="contact" action="https://ssgform.com/s/xvFAe6P1aNQd" method="post">
+  <div class="container">
+    <div class="head">
+    </div>
+    <input type="text" name="name" placeholder="Name" required="required"/><br/>
+    <input  type="email" name="email" placeholder="Email" required="required"/><br />
+    <textarea type="text" name="message" placeholder="Message" required="required"></textarea><br/>
+    <div class="g-recaptcha" data-sitekey="6LfsFUUqAAAAACz-sFvsW9i-fdiMMvSHc8AwPKKP"></div>
+    <button id="submit" type="submit">Send</button>
+  </div>
+</form>
+</div>
+<!--/#support-->
 
 </main>
 
